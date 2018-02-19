@@ -1,0 +1,13 @@
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+NUME: CIOFU SERBAN IOAN
+GRUPA: 311CA
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Pentru a facilita implementarea am impartit fiecare int care trebuia memorat in 4 octeti, folosind operatii pe biti, iar apoi in mod asemanator am si transformat 4 octeti intr-un int. 
+	In functia "alloc" am incercat sa caut prima portiune de memorie libera destul de mare pentru a introduce size+12 octeti, intr-o parcurgere asemanatoare unei permutari din matematica, pana cand intalneam spatiul cautat sau pana cand ajungeam la ultima zona de memorie.
+	In functia "dump" am parcurs arena octet cu octet si am afisat in in format hexazecimal.
+	In functia "free" am eliberat o zona de memorie si am actualizat zona de gestiune a zonelor vecine pentru ca arena sa nu fie corupta.
+	In functia "fill" am parcurs si am introdus valoarea primita ca parametru.
+	In functia "show" am parcurs, asemanator cu functia "alloc", si am retinut blocurile libere si cele pline, dar si numarul de octeti ocupati, la final am afisat ceea ce se cerea pentru fiecare index.
